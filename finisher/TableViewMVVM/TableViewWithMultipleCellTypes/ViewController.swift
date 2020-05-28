@@ -11,11 +11,16 @@ import UIKit
 class ViewController: UIViewController {
 
     fileprivate let viewModel = ProfileViewModel()
+    var loader: ProfileLoader = DummyProfileLoader()
     
     @IBOutlet weak var tableView: UITableView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let items = loader.load()
+    
+        viewModel.items = items
         
         tableView?.dataSource = viewModel
         
