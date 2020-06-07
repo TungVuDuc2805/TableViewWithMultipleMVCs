@@ -1,5 +1,5 @@
 //
-//  Loader.swift
+//  ProfileLoader.swift
 //  TableViewWithMultipleCellTypes
 //
 //  Created by Tung Vu Duc on 5/28/20.
@@ -12,7 +12,7 @@ protocol ProfileLoader {
     func load() -> [ProfileSectionControllerProtocol]
 }
 
-class DummyProfileLoader: ProfileLoader {
+class RemoteProfileLoader: ProfileLoader {
     
     func load() -> [ProfileSectionControllerProtocol] {
         var items = [ProfileSectionControllerProtocol]()

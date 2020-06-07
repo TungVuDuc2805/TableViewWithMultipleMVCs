@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     fileprivate let viewModel = ProfileViewModel()
-    var loader: ProfileLoader = DummyProfileLoader()
+    var loader: ProfileLoader = RemoteProfileLoader()
     
     @IBOutlet weak var tableView: UITableView?
     

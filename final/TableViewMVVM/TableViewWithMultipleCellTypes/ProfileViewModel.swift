@@ -9,11 +9,9 @@
 import Foundation
 import UIKit
 
-class ProfileViewModel: NSObject {
+class ProfileViewModel: NSObject, UITableViewDataSource {
     var items: [ProfileSectionControllerProtocol] = []
-}
-
-extension ProfileViewModel: UITableViewDataSource {
+    
     func numberOfSections(in tableView: UITableView) -> Int {
         return items.count
     }

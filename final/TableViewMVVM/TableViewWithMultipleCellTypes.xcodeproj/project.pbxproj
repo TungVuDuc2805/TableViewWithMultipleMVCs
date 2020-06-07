@@ -29,7 +29,7 @@
 		BD7BB00D247F727900E5A7B7 /* ProfileCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7BB00C247F727900E5A7B7 /* ProfileCellProtocol.swift */; };
 		BD7BB00F247F72AE00E5A7B7 /* ProfileCellDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7BB00E247F72AE00E5A7B7 /* ProfileCellDataModel.swift */; };
 		BD7BB011247F72D400E5A7B7 /* ProfileCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7BB010247F72D400E5A7B7 /* ProfileCellController.swift */; };
-		BD7BB013247F908400E5A7B7 /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7BB012247F908400E5A7B7 /* Loader.swift */; };
+		BD7BB013247F908400E5A7B7 /* ProfileLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7BB012247F908400E5A7B7 /* ProfileLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,7 +57,7 @@
 		BD7BB00C247F727900E5A7B7 /* ProfileCellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCellProtocol.swift; sourceTree = "<group>"; };
 		BD7BB00E247F72AE00E5A7B7 /* ProfileCellDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCellDataModel.swift; sourceTree = "<group>"; };
 		BD7BB010247F72D400E5A7B7 /* ProfileCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCellController.swift; sourceTree = "<group>"; };
-		BD7BB012247F908400E5A7B7 /* Loader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loader.swift; sourceTree = "<group>"; };
+		BD7BB012247F908400E5A7B7 /* ProfileLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +121,7 @@
 				BD7BB00C247F727900E5A7B7 /* ProfileCellProtocol.swift */,
 				BD7BB00E247F72AE00E5A7B7 /* ProfileCellDataModel.swift */,
 				BD7BB010247F72D400E5A7B7 /* ProfileCellController.swift */,
-				BD7BB012247F908400E5A7B7 /* Loader.swift */,
+				BD7BB012247F908400E5A7B7 /* ProfileLoader.swift */,
 			);
 			path = TableViewWithMultipleCellTypes;
 			sourceTree = "<group>";
@@ -216,7 +216,7 @@
 				BD7BB00F247F72AE00E5A7B7 /* ProfileCellDataModel.swift in Sources */,
 				367B201C1ED211F3000F2BFA /* EmailCell.swift in Sources */,
 				BD7BB011247F72D400E5A7B7 /* ProfileCellController.swift in Sources */,
-				BD7BB013247F908400E5A7B7 /* Loader.swift in Sources */,
+				BD7BB013247F908400E5A7B7 /* ProfileLoader.swift in Sources */,
 				367B20101ED20504000F2BFA /* AboutCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
